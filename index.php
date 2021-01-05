@@ -36,14 +36,14 @@
         <div class="container my-5">       
             <div class="row text-center">
                <div class="col-4 text-warning">
-                    <h5>All Cases</h5> <?php echo $total_cases ?>
+                    <h5>All Cases</h5> <?php echo number_format($total_cases) ?>
                 </div>
 
                 <div class="col-4 text-danger">
-                    <h5>Deaths</h5> <?php echo $total_deaths ?>
+                    <h5>Deaths</h5> <?php echo number_format($total_deaths) ?>
                 </div>
                 <div class="col-4 text-success">
-                    <h5>Recoverd</h5> <?php echo $total_recovered ?>
+                    <h5>Recoverd</h5> <?php echo number_format($total_recovered) ?>
                 </div>
             </div>
         </div>
